@@ -12,7 +12,7 @@ body {
   /* width:922px; */
   /* height:600px; */
   width: 65vw;
-  height: 80vh;
+  height: 85vh;
   margin: auto;
 }
 
@@ -20,7 +20,7 @@ body {
   /* width:922px; */
   /* height:600px; */
   width: 65vw;
-  height: 80vh;
+  height: 85vh;
   /* left:-461px; */
   /* top:-300px; */
   left: -50%;
@@ -29,7 +29,7 @@ body {
 
 .magazine-viewport .page {
   width: 32.5vw;
-  height: 80vh;
+  height: 85vh;
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
