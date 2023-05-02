@@ -49,7 +49,7 @@ function loadPage(page, pageElement) {
 
   // Load the page
 
-  img.attr("src", "books/book-example/" + page + ".jpg");
+  img.attr("src", "books/Guide to the Plants/" + page + ".jpg");
 
   loadRegions(page, pageElement);
 }
@@ -161,7 +161,7 @@ function loadLargePage(page, pageElement) {
 
   // Loadnew page
 
-  img.attr("src", "books/book-example/" + page + "-large.jpg");
+  img.attr("src", "books/Guide to the Plants/" + page + "-large.jpg");
 }
 
 // Load small page
@@ -174,7 +174,7 @@ function loadSmallPage(page, pageElement) {
   img.unbind("load");
   // Loadnew page
 
-  img.attr("src", "books/book-example/" + page + ".jpg");
+  img.attr("src", "books/Guide to the Plants/" + page + ".jpg");
 }
 
 // http://code.google.com/p/chromium/issues/detail?id=128488
