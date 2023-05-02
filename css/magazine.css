@@ -11,7 +11,7 @@ body {
   left: 50%;
   /* width:922px; */
   /* height:600px; */
-  width: 70vw;
+  width: 65vw;
   height: 80vh;
   margin: auto;
 }
@@ -19,7 +19,7 @@ body {
 .magazine-viewport .magazine {
   /* width:922px; */
   /* height:600px; */
-  width: 70vw;
+  width: 65vw;
   height: 80vh;
   /* left:-461px; */
   /* top:-300px; */
@@ -28,15 +28,14 @@ body {
 }
 
 .magazine-viewport .page {
-  width: 35vw;
+  width: 32.5vw;
   height: 80vh;
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-@media only screen and (max-width: 600px){
-
+@media only screen and (max-width: 600px) {
 }
 
 .magazine-viewport .zoomer .region {
