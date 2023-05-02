@@ -353,3 +353,25 @@ function calculateBound(d) {
 
   return bound;
 }
+
+const pageInput = document.getElementById("page_input");
+
+setInterval(() => {
+  if (pageInput != document.activeElement) {
+    var currentPage = $(".magazine").turn("page");
+    var maxPages = $(".magazine").turn("pages");
+    if (currentPage === 1 || currentPage === maxPages) {
+      pageInput.value = `${currentPage}/${maxPages}`;
+    } else {
+      pageInput.value = `${currentPage}-${currentPage + 1}/${maxPages}`;
+    }
+  }
+}, 500);
+
+pageInput.addEventListener("keypress", (e) => {
+  if (e.keyCode == 13) {
+    $(".magazine").turn("page", pageInput.value);
+	resizeViewport();
+
+  }
+});

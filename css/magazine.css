@@ -36,7 +36,7 @@ body {
 }
 
 @media only screen and (max-width: 600px){
-		
+
 }
 
 .magazine-viewport .zoomer .region {
@@ -411,7 +411,7 @@ body {
   z-index: 1000;
   width: 22px;
   height: 22px;
-  top: 10px;
+  top: 12px;
   right: 10px;
   background-image: url(../pics/zoom-icons.png);
   background-size: 88px 22px;
