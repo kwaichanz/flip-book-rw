@@ -11,7 +11,7 @@ body {
   left: 50%;
   /* width:922px; */
   /* height:600px; */
-  width: 80vw;
+  width: 70vw;
   height: 80vh;
   margin: auto;
 }
@@ -19,7 +19,7 @@ body {
 .magazine-viewport .magazine {
   /* width:922px; */
   /* height:600px; */
-  width: 80vw;
+  width: 70vw;
   height: 80vh;
   /* left:-461px; */
   /* top:-300px; */
@@ -28,7 +28,7 @@ body {
 }
 
 .magazine-viewport .page {
-  width: 40vw;
+  width: 35vw;
   height: 80vh;
   background-color: white;
   background-repeat: no-repeat;
