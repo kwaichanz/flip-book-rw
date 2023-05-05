@@ -36,6 +36,18 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .magazine-viewport .container {
+    width: 80vw;
+  }
+  .magazine-viewport .magazine {
+    width: 80vw;
+  }
+  .magazine-viewport .page {
+    width: 40vw;
+  }
+  nav > div {
+    height: 4rem;
+  }
 }
 
 .magazine-viewport .zoomer .region {
