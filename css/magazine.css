@@ -43,10 +43,10 @@ body {
     width: 80vw;
   }
   .magazine-viewport .page {
-    width: 40vw;
+    width: 60vw;
   }
   nav > div {
-    height: 4rem;
+    height: 8rem;
   }
 }
 
