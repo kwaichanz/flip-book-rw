@@ -35,6 +35,24 @@ body {
   background-size: 100% 100%;
 }
 
+@media only screen and (max-width: 1200px) {
+  .magazine-viewport .container {
+    width: 80vw;
+  }
+  .magazine-viewport .magazine {
+    width: 80vw;
+  }
+  .magazine-viewport .page {
+    width: 40vw;
+  }
+  #navbar{
+    height: 3rem !important;
+  }
+  #bta-logo{
+    width: 3rem !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .magazine-viewport .container {
     width: 80vw;
@@ -45,9 +63,7 @@ body {
   .magazine-viewport .page {
     width: 60vw;
   }
-  nav > div {
-    height: 8rem;
-  }
+  
 }
 
 .magazine-viewport .zoomer .region {

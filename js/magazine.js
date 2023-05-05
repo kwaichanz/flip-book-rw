@@ -18,6 +18,9 @@ function addPage(page, book) {
     // Load the page
     loadPage(page, element);
   }
+  if (screen.width <= 1200) {
+    $(".magazine").width("80vw");
+  }
   if (screen.width <= 600) {
     $(".magazine").turn("display", "single");
   } else {
@@ -371,7 +374,6 @@ setInterval(() => {
 pageInput.addEventListener("keypress", (e) => {
   if (e.keyCode == 13) {
     $(".magazine").turn("page", pageInput.value);
-	resizeViewport();
-
+    resizeViewport();
   }
 });
